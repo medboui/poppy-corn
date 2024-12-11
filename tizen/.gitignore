@@ -3,3 +3,7 @@ flutter/
 *.user
 bin/
 obj/
+.dart_tool/
+.idea/
+build/
+
