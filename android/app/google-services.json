@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "705036334909",
+    "project_id": "poppycorn-60d8c",
+    "storage_bucket": "poppycorn-60d8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705036334909:android:99ce6d91fcc24979fb7754",
+        "android_client_info": {
+          "package_name": "com.poppycorn.rax.poppycorn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrXPgYtNP7QhJXD2gAmy6MjVS466v6LX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
