@@ -14,6 +14,7 @@ import 'package:poppycorn/components/CheckInternet.dart';
 import 'package:poppycorn/components/header_episodes.dart';
 import 'package:poppycorn/helpers/helpers.dart';
 import 'package:poppycorn/pages/player/mediakit_live_player.dart';
+import 'package:poppycorn/pages/player/tizen_live_player.dart';
 
 class tvCategories extends StatefulWidget {
   const tvCategories({super.key});
@@ -159,7 +160,8 @@ class _tvCategoriesState extends State<tvCategories> {
         "${data['playlistLink']}/${data['username']}/${data['password']}/$streamId";
 
     setState(() {
-        checkPlayer = MediaKitLivePlayer(key: UniqueKey(),
+       // checkPlayer = MediaKitLivePlayer(key: UniqueKey(),
+      checkPlayer = TizenLiveScreen(key: UniqueKey(),
           streamUrl: videoUrl,
           title: title,
           programme: programme,
