@@ -30,7 +30,7 @@ class _FullVideoScreenState extends State<TizenScreen> {
   void initState() {
     super.initState();
     _controller = VideoPlayerController.networkUrl(Uri.parse(
-        'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4'))
+        widget.link))
       ..initialize().then((_) {
         // Ensure the first frame is shown after the video is initialized, even before the play button has been pressed.
         setState(() {});
